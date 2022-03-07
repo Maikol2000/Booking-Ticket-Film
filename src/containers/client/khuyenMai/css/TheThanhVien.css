@@ -1,0 +1,37 @@
+.slick-slide .active-member {
+  display: none;
+  font-size: 17px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 30px;
+  background: url(http://cinestar.com.vn/catalog/view/theme/default/images/arrow-next.png) no-repeat 8.5rem center;
+  padding-right: 30px;
+  color: #e00d7a;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+
+.slick-slide:hover .active-member {
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+  display: block;
+  width: 11rem;
+  cursor: pointer;
+  margin-left: 13rem;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background: url(../../../../assets/img/img-khuyenMai/close-1.png);
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-size: cover;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=TheThanhVien.css.map */
